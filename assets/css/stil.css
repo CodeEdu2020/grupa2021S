@@ -1,0 +1,273 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+body{
+	font-family:Arial;
+	color:#252525;
+}
+ul{
+	list-style-type:none;
+}
+a{
+	text-decoration:none;
+	color:#252525;
+}
+.region{	
+	width:100%;
+	text-align:center;
+	padding:20px 0px;
+}
+#navigacija li {
+	display: inline;
+	padding:0px 20px;
+}
+#navigacija li a {
+	color: #252525;
+	display: inline-block;
+	font-size: 18px;
+	font-weight:900;
+	text-transform: uppercase;
+}
+#navigacija li a:hover, #navigacija li.aktivan a {
+	color: #0ba39c;
+}
+#slika{
+	background:url("../images/cover.jpg") no-repeat;
+	background-size: cover;
+	height:566px;
+	position:relative;
+}
+.cistac{
+	clear:both;
+}
+#tekst{
+	width:490px;
+	position:absolute;
+	top:10%;
+	right:5%;
+}
+#tekst h1 {
+	background: #fff;
+	color: #252525;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	padding:16px;
+	margin-bottom: 7px;
+	text-transform: uppercase;
+}
+#tekst span {
+	background: #252525;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	margin: 5px 0px;
+	padding: 18px;
+}
+#tekst span.st {
+	background: #0ba39c;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	margin: 5px 0px;
+	padding: 25px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#tekst h1, #tekst span{
+	border-radius: 10px;
+}
+.region h2, .centar h1
+{
+	background:#252525;
+	color:#fff;
+	padding:10px;
+	display:inline-block;
+	font-size:24px;
+	text-transform: uppercase;
+	margin:10px 0px;
+	letter-spacing:2px;
+}
+.okvir{
+	width:1000px;
+	margin:20px auto;
+	
+}
+.okvir h2{
+	text-align: center;
+	margin-bottom: 30px;
+	border-bottom: 2px solid #0ba39c;
+	padding-bottom: 10px;
+	border-radius:0px 0px 10px 10px;
+}
+#futer{
+	width:100%;
+	background:#252525;
+	padding:40px 0px;
+	text-align:center;
+	color:#fff;
+	font-weight:bold;
+}
+#futer img
+{
+	margin-top:20px;
+	width:100px;
+	height:100px;
+}
+/* stranica zadatak.html*/
+.sadrzaj{
+	width:960px;
+	margin: 0px auto;
+	border: 1px solid #0ba39c;
+	padding:20px 0px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.sadrzaj table{
+	width:400px;
+	margin:20px auto;
+	text-align: left;
+}
+.sadrzaj table td{
+	padding:7px 0px;
+}
+.sadrzaj input[type="text"], .sadrzaj input[type="button"], .sadrzaj select, .sadrzaj textarea{
+	width:200px;
+	border-radius: 5px;
+	padding: 5px;
+}
+.sadrzaj input[type="button"]{
+	background: #0ba39c;
+	border:none;
+	padding:5px 0px;
+	font-weight:bold;
+}
+.sadrzaj span{
+	color:#ff0000;
+	display: none;
+}
+
+/* Vezba 3 */
+#proizvodi, #filtriranjeSortiranje {
+	width: 80%;
+	margin: 0px auto;
+}
+
+.proizvod {
+	font-size: 15px;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 3px 3px 3px #ccc;
+	border: 1px solid #ccc;
+}
+.proizvod h3 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.proizvod img {
+	max-width: 100%;
+}
+.proizvod_futer {
+	display: flex;
+	margin: 20px 0px;
+	justify-content: space-between;
+}
+.komentari p {
+	font-size: 13px;
+	margin: 10px 0px;
+}
+#sortiraj, .proizvod_futer button {
+	background-color: #0ba39c;
+	padding: 5px 10px;
+	border: none;
+	color:#fff;
+}
+#divRobneMarke {
+	margin:20px 0px;
+}
+#divRobneMarke select {
+	padding: 5px;
+	border-radius: 5px;
+}
+#zadatak li{
+	margin-bottom: 20px;
+}
+
+/* Vezba 4 */
+
+#artikli{
+	width: inherit;
+}
+
+.blok ul{
+	margin-left:30px;
+	text-align:left;
+	width:90%;
+}
+.blok ul li{
+	padding:5px 0px;
+	font-size:13px;
+	font-weight: 100;
+}
+
+.blok img{
+	width:170px;
+	height:220px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.blok .slikaKorpa img{
+	margin:0px;
+}
+.check{
+	text-align:left;
+}
+
+.blok h3{
+	font-size:18px;
+	font-weight: 300;
+	margin-bottom:10px;
+	text-align:left;
+}
+.blok h4{
+	font-size:25px;
+	font-weight: 900;
+	margin-bottom:10px;
+}
+.blok p
+{
+	text-align: center;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-size:14px;
+	color:#66cdaa;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+#artikli .blok
+{
+	width:28%;
+	margin-left:5%;
+	float:left;
+	border:1px solid #151501;
+	margin-bottom: 20px;
+	padding:10px 20px;
+	box-sizing: border-box;
+	text-align:center;
+}
+.slikaKorpa img
+{
+	width:15px
+}
+.korpaText
+{
+	text-align:left;
+	cursor: pointer;
+	color:#66cdaa;
+}
+#cenaIzbor {
+	width:50px;
+	display:inline-block;
+}

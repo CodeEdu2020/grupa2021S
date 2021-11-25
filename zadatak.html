@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Web programiranje 2</title>
+	<meta charset="utf-8" />
+	<link href="assets/css/stil.css" rel="stylesheet" type="text/css" />
+	<meta name="author" content="Danijela Nikitin" />
+</head>
+
+<body>
+	<div class="region" id="logo">
+		<a href="index.html"><img src="assets/images/logo.png" alt="Logo" /></a>
+	</div>
+	<div class="region">
+		<ul id="navigacija">
+			<li class="aktivan"><a href="index.html">Opis zadatka</a></li>
+			<li><a href="zadatak.html">Zadatak</a></li>
+		</ul>
+	</div>
+	<div id="slika">
+		
+	</div>
+	<div class="cistac"></div>
+	<div class="okvir">
+		<h2>Dinamički sadržaj && Filtriranje && Sortiranje</h2>
+		<div id="filtriranjeSortiranje">
+			<div class="centar">
+				<p>FILTER:</p><br />
+				<div id="filteri">
+					<!-- Filtriranje -->
+					<div id="filtriranje">
+						<label for="sortMarka">Sortiraj prema marki opadajuce: </label>
+						<input type="button" name="dugme" id="sortMarka" value="Sortiraj artikle" /><br /><br />
+						<form action="" method="">
+							<label for="tbNaslov">Pronadji model: </label>
+							<input type="text" id="tbDeoModel" name="tbDeoModel" placeholder="Podudaranje po delu" />
+						</form><br />
+						<form action="" method="">
+							<label for="rnCena">Cena u opsegu od 0 do <span id="cenaIzbor">100000</span>: </label>
+							<input type="range" min="0" max="100000" value="100000" id="rnCena" /><br /><br />
+							<input type="button" name="dugme" id="btnCena" value="Pronadji artikal" /><br /><br />
+						</form>
+					</div>
+				</div>
+				<div class="cistac"></div>
+			</div>
+		</div>
+		<div id="artikli">
+			<div class="blok">
+				<img src="assets/images/huaweiP10.jpg" alt="" />
+				<h3>Marka - Tip proizvoda - Model</h3>
+				<ul>
+					<li>Ekran: ____</li>
+					<li>RAM: ____</li>
+					<li>Procesor: ____</li>
+					<li>Operativni sistem: ____</li>
+					<li>Kamera:
+						<ul>
+							<li>Prednja kamera: ____</li>
+							<li>Zadnja kamera: ____</li>
+						</ul>
+					</li>
+
+				</ul>
+				<h4>14.999 RSD</h4>
+				<a class="korpaText" href="#" data-id="___">DODAJ U KORPU</a>
+			</div>
+		</div>
+	</div>
+	<div class="cistac"></div>
+	</div>
+	<div class="cistac"></div>
+	
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>
